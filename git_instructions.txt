@@ -17,6 +17,7 @@ Setup credentials:
 # 4. Copy token code and save in text file
 # 5. Launch configuration script: ./git_config.sh (edit credentials with yours first)
 # 6. Follow instructions, this will setup credentials on computer (and store them)
+# 7. Tokens expire (e.g. after 90 days), when so create new token and relaunch git_config.sh
 
 Make a new git repository:
 # 1. Create empty repository on github (with NO content)
