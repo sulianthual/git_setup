@@ -1,11 +1,14 @@
 Instructions for setting up git/github with .sh scripts
 Sulian Thual 2025
 
+New to git or just forgot the commands? This is a few shell scripts that make the job for you.
+These scripts are very basic, just setup git on new computer, create new repo and push changes.
+
 Setup:
 # 1. Be on linux, all instructions through a terminal
 # 2. Give execution permission to all .sh files, e.g. chmod+x git_config.sh
 # 3. Start a project, copy all .sh files in its directory, then work from there
-# 4. All .sh scripts use my credentials (sulianthual,email...), edit them to replace with yours first
+# 4. All .sh scripts use my credentials (sulianthual,sulian.thual@gmail.com...), edit them to replace with yours first
 
 Setup credentials:
 # 1. Log in/Register to github: main email, main pwd (possible main phone confirmation)
@@ -42,3 +45,7 @@ With the above, you workflow should look like this:
 # You make a new repository, do the git_init
 # You (often) save/load changes with the git_push and git pull
 # Rarely solve inconsistencies with git_reset or manually 
+
+Tips:
+# If you want a repository to only save some content (e.g. exclude large files):
+# use .gitignore files, or edit .git/info/exclude
