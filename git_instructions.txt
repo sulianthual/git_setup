@@ -17,11 +17,12 @@ Setup credentials:
 
 Make a new git repository:
 # 1. Create empty repository on github (with NO content)
-#   (DO NOT execute the proposed command lines, we do that here)
+#   (DO NOT create Readme, or execute the proposed command lines, we do that here)
 # 2. On computer, be in directory of new project 
 # 3. Launch initial init and push with: ./git_init.sh
 # 4. Follow prompts e.g. choose name (must match empty repository name on github)
 # 5. This will generate .git on your computer, and push content to github too 
+#    (check on github that the folder content has been pushed to the repository)
 # 6. If operation fails, delete the .git folder and relaunch ./git_init.sh
 
 Push repository changes:

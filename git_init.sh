@@ -2,11 +2,12 @@
 
 ## Script to init a new repository (follow instructions)
 ## first create empty repository on github website (with same name)
-## (DO NOT execute the proposed command lines, we do that here)
+## (DO NOT create Readme, or execute the proposed command lines, we do that here)
 ## chmod +x git_init.sh
 ## ./git_init.sh
 ## follow instructions
 ## if succesfull, folder is linked to repository (and has .git/)
+#    (check on github that the folder content has been pushed to the repository)
 ## if unsuccesfull, delete the .git/ and restart
 
 echo "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
@@ -30,7 +31,7 @@ if [ ! -f /tmp/README.md ]; then
     echo "">>README.md
     echo "<h4>$reponame</h4>" >> README.md
     echo "">>README.md
-    echo "sul ($(date +%Y), Godot 4 or above)" >> README.md
+    echo "Sulian Thual ($(date +%Y))" >> README.md
     echo "">>README.md
     echo "...">>README.md
     echo "">>README.md
