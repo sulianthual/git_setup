@@ -1,9 +1,9 @@
 <!-- ![alt text](game_icon.png?raw=true "Screenshot") -->
 
-<h4>git_setup</h4>
+<h4>Git Setup</h4>
 
-sul (2025, Godot 4 or above)
+Sulian Thual (2025)
 
-...
+A Collection of bash (.sh) files to quickly setup and use git/github. Follow the instrucitons.
 
 Github reference: [link](https://github.com/sulianthual/git_setup)
