@@ -11,7 +11,7 @@ Setup:
 # 4. All .sh scripts use my credentials (sulianthual,sulian.thual@gmail.com...), edit them to replace with yours first
 
 Setup credentials:
-# 1. Log in/Register to github: main email, main pwd (possible main phone confirmation)
+# 1. Log in/Register to github website: main email, main password (possible main phone confirmation)
 # 2. Go to Profile/Settings/Developper Settings/Personal access tokens
 # 3. Generate new token (classic): note as name of computer, expiration 90 days, scope "repo"
 # 4. Copy token code and save in text file
