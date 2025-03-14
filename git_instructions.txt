@@ -1,8 +1,8 @@
 Instructions for setting up git/github with .sh scripts
 Sulian Thual 2025
 
-New to git or just forgot the commands? This is a few shell scripts that make the job for you.
-These scripts are very basic, just setup git on new computer, create new repo and push changes.
+New to git/github or just forgot the commands? This is a few shell scripts that make the job for you.
+These scripts are very basic, just setup git on new computer, create new repo and push/pull changes to github.
 
 Setup:
 # 1. Be on linux, all instructions through a terminal
