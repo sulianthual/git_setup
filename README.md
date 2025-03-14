@@ -4,6 +4,6 @@
 
 Sulian Thual (2025)
 
-A Collection of bash (.sh) files to quickly setup and use git/github. Follow the instrucitons.
+Some bash (.sh) files to quickly setup and use git/github. Follow the instructions.
 
 Github reference: [link](https://github.com/sulianthual/git_setup)
