@@ -15,7 +15,9 @@
 # 8. These credentials are now stored for later reuse (as long as token is valid)
 
 # Automated code for git push
-echo "Pushing to git:"
+echo "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+echo "GIT PUSH:" 
+echo "Pushing to git"
 
 COMMIT=$(date +"%Y%m%d-%H%M%S")
 #read -p "commit name: " COMMIT
