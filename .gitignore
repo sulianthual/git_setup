@@ -1,5 +1,5 @@
 
-## Ignroe anything under toto/, but not subdirectories
-*
+## Ignore everything (recursive)
+/*
 ## But not text files
 !*.txt
