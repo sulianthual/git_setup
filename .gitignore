@@ -1,22 +1,25 @@
 
-## GitIg
-## Ignore everything (recursive)
+## GitIgnore (order matters!)
+
+# Ignore everything (recursive)
 *
+# But keep functonial files
 !.gitattributes
 !.gitignore
 !.gitkeep
 !.README.md
+
+# Keep specific file types (CUSTOMIZE HERE)
+!*.txt
+!*.sh
+!*.py
+!*.ipynb
+!*.pdf
+
+# Be Sure to browse subdirectories (recursive)
 !*/
 
-
-!*.txt
-
-## But not text files
-#
-
-## Note: some pushed files not removed by later gitignore
+## Some already pushed files not removed by later gitignore
 ## to remove them manually:
 ## git rm -r --cashed
 ## then regular add/commit/push
-
-## Keep subdirectories if needed
