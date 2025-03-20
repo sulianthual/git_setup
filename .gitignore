@@ -1,5 +1,10 @@
 
 ## Ignore everything (recursive)
-/toto/**
+/toto/**/*
 ## But not text files
 #!/toto/**/*.txt
+
+## Note: some pushed files not removed by later gitignore
+## to remove them manually:
+## git rm -r --cashed
+## then regular add/commit/push
