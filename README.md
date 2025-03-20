@@ -4,6 +4,6 @@
 
 Sulian Thual (2025)
 
-Some bash (.sh) files to quickly setup and use git/github (its very basic). Follow the instructions.
+Some bash (.sh) files to quickly setup and use git/github (its very basic). Follow the instructions. Only some filetypes are saved (see gitignore).
 
 Github reference: [link](https://github.com/sulianthual/git_setup)

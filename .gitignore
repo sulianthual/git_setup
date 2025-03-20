@@ -1,6 +1,10 @@
 
 ## GitIgnore (order matters!)
 
+##################################################
+### KEEP ONLY SPECIFIC FILETYPES (ALL DIRECTORIES)
+## IF WANT TO KEEP EVERYTHING, COMMENT THIS SECTION OR DELETE .gitignore
+
 # Ignore everything (recursive)
 *
 # But keep functonial files
@@ -18,6 +22,9 @@
 
 # Be Sure to browse subdirectories (recursive)
 !*/
+
+##################################################
+
 
 ## Some already pushed files not removed by later gitignore
 ## to remove them manually:
