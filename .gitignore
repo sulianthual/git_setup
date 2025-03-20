@@ -7,7 +7,7 @@
 !.gitattributes
 !.gitignore
 !.gitkeep
-!.README.md
+!*.md
 
 # Keep specific file types (CUSTOMIZE HERE)
 !*.txt
