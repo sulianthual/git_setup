@@ -1,5 +1,5 @@
 
 ## Ignore everything (recursive)
-/*
+/toto/**
 ## But not text files
-!*.txt
+!/toto/**/**.txt
