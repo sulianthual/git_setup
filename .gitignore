@@ -1,5 +1,6 @@
-#Ignore all subdirectories
-*/*
-*.*
+
+## Ignroe anything under toto/, but not subdirectories
+/toto/**
+!/toto/**
 ## But not text files
-!./**.txt
+!*.txt
