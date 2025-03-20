@@ -2,3 +2,6 @@
 */*
 # Ignore directory
 /*.*
+
+## But not text files
+!*/*.txt
