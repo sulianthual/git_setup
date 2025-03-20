@@ -1,0 +1,19 @@
+
+## Ignore everything (recursive)
+*
+!.gitattributes
+!.gitignore
+!.gitkeep
+!.README.md
+!*.txt
+!*/
+
+## But not text files
+#
+
+## Note: some pushed files not removed by later gitignore
+## to remove them manually:
+## git rm -r --cashed
+## then regular add/commit/push
+
+## Keep subdirectories if needed
