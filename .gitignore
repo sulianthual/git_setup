@@ -1,12 +1,15 @@
 
+## GitIg
 ## Ignore everything (recursive)
 *
 !.gitattributes
 !.gitignore
 !.gitkeep
 !.README.md
-!*.txt
 !*/
+
+
+!*.txt
 
 ## But not text files
 #
