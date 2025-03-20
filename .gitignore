@@ -1,8 +1,8 @@
 
 ## Ignore everything (recursive)
-/toto/**/*
+./**/*
 ## But not text files
-#!/toto/**/*.txt
+#!./**/*.txt
 
 ## Note: some pushed files not removed by later gitignore
 ## to remove them manually:
