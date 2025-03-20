@@ -2,4 +2,4 @@
 ## Ignore everything (recursive)
 /toto/**
 ## But not text files
-!/toto/**/**.txt
+!/toto/**/*.txt
